@@ -1,139 +1,31 @@
-# AI Intent-Based App Builder
+# Native-Ai-Development
 
-A modern web platform that allows users to describe their app in plain English and generate a full-stack application with AI assistance.
+An intent-centric AI Application Builder platform. This project provides a robust interface and foundation for developing AI applications dynamically based on user intent and natural language.
 
-## Features
+## 🚀 Tech Stack
 
-- **3D Wave Animation Background**: Immersive animated waves in pink and dark blue gradient
-- **AI-Powered Architecture**: Describe your app idea and get an auto-generated architecture
-- **Modern UI**: Professional glassmorphism design inspired by Sealos.io
-- **Multi-Step Workflow**: Intent → Translation → Validation → Output
-- **Responsive Design**: Works seamlessly on desktop and mobile devices
-- **Professional Typography**: Google Fonts Inter for clean, modern text
+- **Frontend Core:** React, Vite
+- **Styling:** Tailwind CSS, PostCSS
+- **Linting & Code Quality:** ESLint
 
-## Tech Stack
+## 🏗 Architecture & System Design
 
-- **Frontend**: React 19 with Vite
-- **Styling**: Tailwind CSS + Custom CSS
-- **Animations**: Vanta.js for 3D wave effects
-- **Navigation**: React Router v7
-- **Build Tool**: Vite
+Native-Ai-Development uses a modern frontend architecture built on Vite for rapid development and optimized builds. The application structure (`src/`, `public/`) is designed for scalability, allowing easy integration of various AI modules and intent-parsing logic directly into the UI components.
 
-## Getting Started
+## ⚙️ Setup & Installation
 
 ### Prerequisites
+- Node.js (v16+)
 
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
+### Getting Started
 ```bash
-git clone https://github.com/yourusername/ai-intent-platform.git
-cd ai-intent-platform
-```
+# Clone the repository
+git clone https://github.com/Manasvi-hub/Native-Ai-Development.git
+cd Native-Ai-Development
 
-2. Install dependencies:
-```bash
+# Install dependencies
 npm install
-```
 
-3. Start the development server:
-```bash
+# Start the development server
 npm run dev
 ```
-
-4. Open your browser and navigate to:
-```
-http://localhost:5174
-```
-
-## Project Structure
-
-```
-src/
-├── components/
-│   └── VantaBackground.jsx    # 3D wave animation component
-├── pages/
-│   ├── IntentPage.jsx         # Home/Hero page
-│   ├── TranslationPage.jsx    # Architecture generation
-│   ├── ValidationPage.jsx     # Security/compliance checks
-│   └── OutputPage.jsx         # Generated app display
-├── App.jsx                    # Main app component
-├── main.jsx                   # Entry point
-└── index.css                  # Global styles
-```
-
-## Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
-## Features Breakdown
-
-### IntentPage (Hero)
-- Navigation bar
-- Hero section with title and description
-- Input textarea for app description
-- Feature preview cards
-
-### TranslationPage (Architecture Generation)
-- Progress visualization
-- 4 stages of app generation:
-  - Architecture design
-  - Database setup
-  - API creation
-  - UI design
-
-### ValidationPage (Validation)
-- Security checks
-- Compliance verification
-- Test cases validation
-
-### OutputPage (Results)
-- Display generated app specs
-- Show user prompt
-- Display technical stack
-- Deploy and download options
-
-## Customization
-
-### Change Wave Colors
-Edit `src/components/VantaBackground.jsx`:
-```javascript
-color: 0xffb6c1,           // light pink waves
-color2: 0x1e3a8a,          // dark blue highlight
-backgroundColor: 0x0f172a, // deep dark blue background
-```
-
-### Modify Typography
-Edit `src/index.css` to change the font family or weights.
-
-## Future Enhancements
-
-- Backend API integration
-- User authentication
-- Actual app generation using AI APIs
-- Database storage for app configurations
-- Deployment automation
-- Code download and preview features
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Contact
-
-For questions or support, please open an issue on GitHub.
-
----
-
-Built with ❤️ by Manoj
-
